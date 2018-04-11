@@ -83,3 +83,11 @@ $(document).ready(function () {
     // bookSlides();
     showSlides(slideIndex);
 });
+// Mail Chimp Functions
+    (function ($) {
+    window.fnames = new Array();
+    window.ftypes = new Array();
+    fnames[0] = 'EMAIL';
+    ftypes[0] = 'email';
+  }($));
+  var $mcj = $.noConflict(true)
