@@ -1,6 +1,8 @@
 # Chomoka-na-Kitabu
 
-#### An Online Bookshop that delivers new and used books, 11thApril 2018 
+## An Online Bookshop that delivers new and used books
+
+### 11th,April 2018
 
 #### By **Sarah Marion**, **Richard Waweru**, **Derrick Muriithi** &  **Jeremy Mutito**
 
@@ -33,9 +35,9 @@ You can reach out to us for reviews, advice, collaborations and comments at:
 
     * devsarahmarion@gmail.com
     * developer.waweru@gmail.com
-    * 
+    * muriithiderrick56@gmail.com
+    * jeremymutitu@gmail.com
 
-## YOU ARE NOT GRANTED AUTHORITY, RIGHTS OR LICENCES TO THIS PROJECT WITHOUT THE EXPRESS CONSENT OF SARAH MARION.
+## YOU ARE NOT GRANTED AUTHORITY, RIGHTS OR LICENCES TO THIS PROJECT WITHOUT THE EXPRESS CONSENT OF SARAH MARION
 
 Copyright (c) 2018 **Sarah Marion**
-  
