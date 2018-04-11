@@ -30,6 +30,6 @@ You can reach out to us for reviews, advice, collaborations and comments at:
     * developer.waweru@gmail.com
     * 
 
-##YOU ARE NOT GRANTED AUTHORITY, RIGHTS OR LICENCES TO THIS PROJECT WITHOUT THE EXPRESS CONSENT OF SARAH MARION.
+## YOU ARE NOT GRANTED AUTHORITY, RIGHTS OR LICENCES TO THIS PROJECT WITHOUT THE EXPRESS CONSENT OF SARAH MARION.
 Copyright (c) 2018 **Sarah Marion**
   
