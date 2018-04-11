@@ -1,17 +1,7 @@
 // var indexPos = 0;
-
-// function bookSlides() {
-//     var nextSlide = document.getElementsByClassName("book-slides");
-//     for (var i = 0; i < nextSlide.length; i++) {
-//         nextSlide[i].style.display = "none";
-//     }
-//     indexPos++;
-//     if (indexPos > nextSlide.length) {
-//         indexPos = 1
-//     }
-//     nextSlide[indexPos - 1].style.display = "block";
-//     setTimeout(bookSlides, 2000);
-// }
+var customerArray = [];
+var customerObj = {};
+var customersdata;
 var slideIndex = 1;
 
 function plusSlides(n) {
@@ -69,7 +59,7 @@ $(document).ready(function () {
     });
     // Collapse Navbar when the scroll is triggered
     var navbarCollapse = function () {
-        if ($("#navMain").offset().top > 100) {
+        if ($("#navMain").offset().top > 18) {
             $("#navMain").addClass("navbar-shrink");
         } else {
             $("#navMain").removeClass("navbar-shrink");
@@ -82,4 +72,29 @@ $(document).ready(function () {
     showSlides(slideIndex);
     // bookSlides();
     showSlides(slideIndex);
+
+    $('form').submit(function (event) {
+        event.preventDefault();
+        var fn = $('#fn').val();
+        var ln = $('#ln').val();
+        var pn = $('#pn').val();
+        var e = $('#e').val();
+        var addr = $('#ad').val();
+
+        var customerObj = {
+            firstname: fn,
+            lastname: ln,
+            phonenumber: pn,
+            email: e,
+            address: addr
+        };
+        customerArray.push(customerObj);
+
+        localStorage.setItem('customersRecord', JSON.stringify(customerArray));
+        alert("customer successfully registered!");
+
+    });
+    customersdata = localStorage.getItem('customersRecord');
+    // console.log(customersdata);
+
 });
