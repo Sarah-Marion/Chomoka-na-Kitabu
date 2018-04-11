@@ -1,6 +1,9 @@
 # Chomoka-na-Kitabu
-#### {Brief description of application},11thApril 2018 
+
+#### An Online Bookshop that delivers new and used books, 11thApril 2018 
+
 #### By **Sarah Marion**, **Richard Waweru**, **Derrick Muriithi** &  **Jeremy Mutito**
+
 ## Description
 
 Chomoka Na Kitabu is a Kenyan online bookshop aggregator created to help parents,guardians,students and book lovers make purchases or sell new and used books conveniently to a location of their choice includin their homes.
@@ -9,13 +12,12 @@ Chomoka Na Kitabu is a Kenyan online bookshop aggregator created to help parents
 
     * A Computer or Mobile Device
     * Internet Connection
-    * A list of books that you may want to purchase:bowtie:
-    * easy-to-understand
-    * format
+    * A list of books that you may want to purchase
 
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+
+It does not have any bugs.But if any problems should occur:- Kindly reach out to either of us.
+
 ## Technologies Used
 
     *JavaScript
@@ -26,12 +28,14 @@ Chomoka Na Kitabu is a Kenyan online bookshop aggregator created to help parents
     *Bootstrap
 
 ## Support and contact details
+
 You can reach out to us for reviews, advice, collaborations and comments at:
+
     * devsarahmarion@gmail.com
     * developer.waweru@gmail.com
     * 
 
-### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+## YOU ARE NOT GRANTED AUTHORITY, RIGHTS OR LICENCES TO THIS PROJECT WITHOUT THE EXPRESS CONSENT OF SARAH MARION.
+
+Copyright (c) 2018 **Sarah Marion**
   
