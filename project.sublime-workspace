@@ -1,0 +1,896 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"book",
+				"books"
+			],
+			[
+				"getE",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"getEle",
+				"getElementsByTagName\t( localName: DOMString ): HTMLCollection Element"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"list-sty",
+				"list-style"
+			],
+			[
+				"onkey",
+				"onkeyup\tAttr"
+			],
+			[
+				"cust",
+				"customerObj"
+			],
+			[
+				"add",
+				"addr"
+			],
+			[
+				"lo",
+				"log\t( x: number ): number Math"
+			],
+			[
+				"jso",
+				"jsonData"
+			],
+			[
+				"doc",
+				"document\t: Document Window"
+			],
+			[
+				"dat",
+				"data/"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"map",
+				"map"
+			],
+			[
+				"lat",
+				"latlng\t(portal.html)"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"bt",
+				"btn-block \tBootstrap 3 Class"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"pl1",
+				"pl1style\t(index.html)"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"panel",
+				"panel-danger \tBootstrap 3 Class"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"backgro",
+				"background-blend-mode"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"A",
+				"AutomaticRestart"
+			],
+			[
+				"pla",
+				"player2"
+			],
+			[
+				"play",
+				"player2"
+			],
+			[
+				"player",
+				"player1"
+			],
+			[
+				"score",
+				"scoreTotal"
+			],
+			[
+				"sco",
+				"scoreTotal"
+			],
+			[
+				"pl",
+				"player1"
+			],
+			[
+				"plr",
+				"pl1Arr"
+			],
+			[
+				"pl2",
+				"pl2h"
+			],
+			[
+				"hid",
+				"hidden\t(met_binarywrite.html)"
+			],
+			[
+				"chan",
+				"changeTurn"
+			],
+			[
+				"die",
+				"die"
+			],
+			[
+				"Ba",
+				"BankAccount"
+			],
+			[
+				"with",
+				"withdrawal"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"b",
+				"button"
+			],
+			[
+				"playlist",
+				"playListIndex"
+			],
+			[
+				"playli",
+				"playListIndex"
+			],
+			[
+				"playLi",
+				"playListIndex"
+			],
+			[
+				"navi",
+				"navigator\t: Navigator Window"
+			],
+			[
+				"setI",
+				"setInterval\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mute",
+				"muted"
+			],
+			[
+				"init",
+				"initAudioPlayer"
+			],
+			[
+				"btn",
+				"btn-info \tBootstrap 3 Class"
+			],
+			[
+				"ping",
+				"pingpong\t(index.html)"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"my",
+				"myarr"
+			],
+			[
+				"list-grop",
+				"list-group-item \tBootstrap 3 Class"
+			],
+			[
+				"form",
+				"form-control \tBootstrap 3 Class"
+			],
+			[
+				"navbar",
+				"navbar-nav"
+			],
+			[
+				"navba",
+				"navbarcollapse"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"txt",
+				"txtArea"
+			],
+			[
+				"tx",
+				"txtBox"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"parse",
+				"parseInt\t(index.html)"
+			],
+			[
+				"form-i",
+				"form-horizontal \tBootstrap 3 Class"
+			],
+			[
+				"ce",
+				"centuryFromYear"
+			],
+			[
+				"forE",
+				"forEach\t( callbackfn: Function, thisArg?: any ): Array Array"
+			],
+			[
+				"let",
+				"letters"
+			],
+			[
+				"lea",
+				"leapYear"
+			],
+			[
+				"leap",
+				"leapYear\t(test.js)"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"console",
+				"console.log"
+			],
+			[
+				"preve",
+				"preventDefault\t(): void Event"
+			],
+			[
+				"de",
+				"derr2"
+			],
+			[
+				"logo",
+				"logoBig.png"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"btn-",
+				"btn-lg \tBootstrap 3 Class"
+			],
+			[
+				"ico",
+				"icon-bar \tBootstrap 3 Class"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"caro",
+				"carousel-control \tBootstrap 3 Class"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"magin",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"shad",
+				"box-shadow"
+			],
+			[
+				"fon",
+				"font-size\t(styles.css)"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"col-sm-p",
+				"col-sm-pull-2 \tBootstrap 3 Class"
+			],
+			[
+				"pading",
+				"padding-bottom"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"tex",
+				"text-center \tBootstrap 3 Class"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"consol",
+				"console.log\t(scripts.js)"
+			],
+			[
+				"nume",
+				"number2"
+			],
+			[
+				"pars",
+				"parseInt\t( s: string, radix: int ): int Global"
+			],
+			[
+				"app",
+				"append\t( nodes_..: Node|DOMString ): void Element"
+			],
+			[
+				"sc",
+				"screen1"
+			],
+			[
+				"do",
+				"document\t: Document Window"
+			],
+			[
+				"bs3",
+				"bs3-well\tbs3-well"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"backgroud-",
+				"background-color"
+			],
+			[
+				"fu",
+				"Function\t( paramsAndBody_..: string ): Function Function"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"ser",
+				"sans-serif"
+			],
+			[
+				"text-c",
+				"text-anchor"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"im",
+				"background-image"
+			],
+			[
+				"he",
+				"header\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3412,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/data.js",
+			"settings":
+			{
+				"buffer_size": 3173,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 173.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/deryq/Desktop/moringa/wk5/project-finale",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/css",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/data",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/img",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/js"
+	],
+	"file_history":
+	[
+		"/home/deryq/Desktop/Chomoka-na-Kitabu/index.html",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/data/data.json",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/js/data.js",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/data/customers.json",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/data/test.json",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/test.html",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/js/test.js",
+		"/home/deryq/Desktop/moringa/wk4/pigdice/js/scripts.js",
+		"/home/deryq/Documents/myproject/livestockapp/templates/liveapp/portal.html",
+		"/home/deryq/Documents/myproject/livestockapp/templates/liveapp/incidenceform.html",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/css/styles.css",
+		"/home/deryq/Documents/myproject/livestockapp/templates/liveapp/home.html",
+		"/home/deryq/Desktop/moringa/wk5/project-finale/js/scripts.js",
+		"/home/deryq/Desktop/moringa/wk4/pigdice/readme.md",
+		"/home/deryq/Desktop/moringa/wk4/pigdice/css/styles.css",
+		"/home/deryq/Desktop/moringa/wk4/pigdice/index.html",
+		"/home/deryq/Desktop/moringa/pingpong/index.html",
+		"/home/deryq/Pictures/Pig-Dice-Game-master (2)/js/scripts.js",
+		"/home/deryq/Pictures/pig-game--master/js/scripts.js",
+		"/home/deryq/Desktop/sideprojects/javascript/pigdice.js",
+		"/home/deryq/Desktop/sideprojects/javascript/tues.js",
+		"/home/deryq/Desktop/www.w3schools.com/asp/met_binarywrite.html",
+		"/home/deryq/Desktop/sideprojects/javascript/constructors.js",
+		"/home/deryq/Desktop/sideprojects/javascript/index.html",
+		"/home/deryq/Desktop/sideprojects/javascript/javascript_oop.js",
+		"/home/deryq/Desktop/sideprojects/audioplayer/index.html",
+		"/home/deryq/Desktop/sideprojects/javascript/test1.js",
+		"/home/deryq/Desktop/sideprojects/audioplayer/js/jquery.js",
+		"/home/deryq/Desktop/sideprojects/audioplayer/music/When  you think about love.mp3",
+		"/home/deryq/Desktop/sideprojects/audioplayer/index2.html",
+		"/home/deryq/Desktop/sideprojects/audioplayer/css/bootstrap.min.css",
+		"/home/deryq/Desktop/sideprojects/audioplayer/howler.js",
+		"/home/deryq/Desktop/moringa/wk3fr/countdown app/test.html",
+		"/home/deryq/Desktop/moringa/ping/js/scripts.js",
+		"/home/deryq/Desktop/moringa/ping/css/styles.css",
+		"/home/deryq/Desktop/moringa/ping/index.html",
+		"/home/deryq/Desktop/moringa/ping/readme.md",
+		"/home/deryq/Desktop/moringa/ping/.gitignore",
+		"/home/deryq/Desktop/moringa/pingpong/js/popper.min.js",
+		"/home/deryq/Desktop/moringa/wk3thur/index.html",
+		"/home/deryq/Desktop/moringa/pingpong/css/styles.css",
+		"/home/deryq/Desktop/moringa/pingpong/js/scripts.js",
+		"/home/deryq/Desktop/moringa/wk3fr/countdown app/test.js",
+		"/home/deryq/Desktop/moringa/wk3mon/test.html",
+		"/home/deryq/Desktop/moringa/wk2wn/myjs.js",
+		"/home/deryq/Desktop/moringa/wk3thur/regex.html",
+		"/home/deryq/Desktop/moringa/wk2wn/index.html",
+		"/home/deryq/Desktop/moringa/wk3mon/test2.js",
+		"/home/deryq/Desktop/moringa/wk3mon/test.js",
+		"/home/deryq/Desktop/moringa/wk2fr/kitchen/css/styles.css",
+		"/home/deryq/Desktop/moringa/wk2fr/kitchen/js/scripts.js",
+		"/home/deryq/Desktop/moringa/wk2fr/kitchen/README.md",
+		"/home/deryq/Desktop/moringa/wk2fr/kitchen/index.html",
+		"/home/deryq/Desktop/moringa/wk2fr/kitchen/.gitignore",
+		"/home/deryq/Desktop/moringa/wk1fr/portfolio/index.html",
+		"/home/deryq/Desktop/moringa/wk1fr/portfolio/readme.md",
+		"/home/deryq/Desktop/moringa/wk2fr/kitchen/js/jquery.js",
+		"/home/deryq/Desktop/moringa/wk2fr/kitchen/index2.html",
+		"/home/deryq/Desktop/moringa/wk2fr/kitchen/css/slick.css",
+		"/home/deryq/Desktop/moringa/wk2fr/kitchen/css/slick-theme.css",
+		"/home/deryq/Desktop/moringa/wk2thurs/index.html",
+		"/home/deryq/Desktop/moringa/wk2tues/index.html",
+		"/home/deryq/Desktop/converttoaudio.py",
+		"/home/deryq/Desktop/moringa/wk2mon/bootstrap-test/index.html",
+		"/home/deryq/Desktop/moringa/impt/myreadmeref.md",
+		"/home/deryq/.config/sublime-text-3/Packages/User/v.sublime-build",
+		"/home/deryq/Desktop/moringa/wk2mon/blog/new.js",
+		"/home/deryq/Desktop/moringa/wk2mon/blog/css/styles.css",
+		"/home/deryq/Desktop/moringa/wk2mon/blog/more.html",
+		"/home/deryq/Desktop/moringa/wk2mon/blog/index.html",
+		"/home/deryq/.config/sublime-text-3/Packages/User/javascript.sublime-build",
+		"/home/deryq/Desktop/myblog/new.js",
+		"/home/deryq/Desktop/myblog/new.html",
+		"/home/deryq/Desktop/myblog/index.html",
+		"/home/deryq/Desktop/myblog/new.py",
+		"/home/deryq/Desktop/myblog/okoa.md",
+		"/home/deryq/Desktop/myblog/readme.md",
+		"/home/deryq/Desktop/myblog/mycss.css",
+		"/home/deryq/.config/sublime-text-3/Packages/auto-save/auto_save.sublime-settings",
+		"/home/deryq/Desktop/moringa/wk1fr/portfolio/styles.css",
+		"/home/deryq/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/deryq/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/deryq/Desktop/new.html",
+		"/home/deryq/Desktop/imp/new.html"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 157.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"taketurn",
+			"height",
+			"player",
+			"inheri",
+			";\n",
+			" style=\"border:1px solid green\"",
+			"red",
+			"}"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3081,
+								3081
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1140.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/data.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1596.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 55.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 27.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 122.0
+	},
+	"output.exec":
+	{
+		"height": 401.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 152.0
+	},
+	"pinned_build_system": "Packages/User/javascript.sublime-build",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

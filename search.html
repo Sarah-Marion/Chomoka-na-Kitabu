@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project finale.</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="data/test.json"> </script>
+		<script src="js/data.js"></script>
+		<style type="text/css">
+
+		   #order{
+		   	display: none;
+		   }
+		   #ord{
+		   	color: red;
+		   }
+		   .col-md-4{
+		   	height: 40vh;
+		   	border-radius: 2px;
+		   	
+		   	text-align: center;
+		   	display: inline-block;
+		   
+		   	/*margin:5px;*/
+		   }
+		   #myinput{
+		   	text-align: center;
+		   	margin-left: 300px;
+		   	margin-top: 50px;
+		   }
+			#wrapper{
+				list-style: none;
+				display: inline-block;
+				margin-top: 100px;
+			}
+			ul{
+				list-style: none;
+				display: inline-block;
+				margin: 20px;
+			}
+			li{
+				width: 250px;
+				height: 200px;
+				float: left;
+				/*padding: 20px;*/
+				box-shadow: 0 2px 3px rgba(0,0,0,0,5);
+				text-align: center;
+				float: left;
+				margin: 10px;
+				border-radius: 2px;
+				
+
+			}
+			.makeorder{
+				width: 10px;
+			}
+			.makeorder{
+				width:100%;
+				padding: 10px;
+			}
+
+		</style>
+		
+	</head>
+	<body>
+
+<div class="search-button">
+<form>
+	<input type="text" name="search" value="" autocomplete="off" id="myinput" placeholder="search">
+	
+</div>
+<span id="found"></span>
+<span id="notfound"></span>
+
+ <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">place an order and have book delivered.</h4>
+        </div>
+        <div class="modal-body">
+          <form id="orderbook">
+          	<label>name : </label>
+          	<input type="text" name="" placeholder="name">
+          	<label>contact : </label>
+          	<input type="number" name="" placeholder="phone number">
+          	<label>address : </label>
+          	<input type="text" name="" placeholder="address">
+          	<label>email : </label>
+          	<input type="email" name="" placeholder="email">
+          	<button class="btn btn-danger">order!</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<div class="container" id="wrapper"></div>
+
+
+<script type="text/javascript">
+
+
+   $(function(){
+   	var xy=3;
+   	var xz=0;
+      for(i=0;i<books.length;i++){
+      	var catArr = books[i];
+      	 
+      	 var bookDiv = $("<div id=content"+i+ " class='col-md-4'>");      	
+      	if(xy>=3){
+      		xz++
+      		var bookRow = $("<div class='row rowbooks"+xz+"'>");
+      		$("#wrapper").append(bookRow);
+      		xy=0
+      	}
+      	else{
+      		xy++;
+      		$(".rowbooks"+xz).append(bookDiv);
+      		$("#content"+i).append('<button class="btn btn-info makeorder" id='+i+'>'+"category : "+books[i].category+"<br>"+"title : "+books[i].title+"<br>"+"isbn-number : "+books[i].isbn_number+"<br>"+"reviewed : "+books[i].review +"<br>"+"<a id='ord'>click to order book.");
+      	}
+
+     };
+      $("button.makeorder").click(function(){
+      		var id=$(this).attr("id");
+            $('#myModal').appendTo("body").modal('show');
+		});
+      $("#orderbook").submit(function(event){
+         event.preventDefault();
+         alert('book ordered successifully!')
+      })
+
+
+		$("#myinput").keyup(function(e){
+
+			var filter = ($(this).val()).toUpperCase();
+			var li = $("#wrapper div.row .col-md-4 .makeorder");
+	        console.log(li);
+
+			for(i=0;i<li.length;i++){
+			var a = ($('button.makeorder')[i]);
+			if(a.innerHTML.toUpperCase().indexOf(filter) > -1){
+				    $("#found").html("searching "+filter.toLowerCase()+" book!");
+					li[i].style.display = "";
+
+				}else{
+					li[i].style.display = "none";
+
+				}
+			}
+
+		});
+   });
+	</script>
+	
+</body>
+</html>
