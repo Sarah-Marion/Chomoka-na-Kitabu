@@ -57,9 +57,10 @@ $(document).ready(function () {
         target: '#navMain',
         offset: 54
     });
+
     // Collapse Navbar when the scroll is triggered
     var navbarCollapse = function () {
-        if ($("#navMain").offset().top > 18) {
+        if ($("#navMain").offset().top > 100) {
             $("#navMain").addClass("navbar-shrink");
         } else {
             $("#navMain").removeClass("navbar-shrink");
@@ -69,9 +70,8 @@ $(document).ready(function () {
     navbarCollapse();
     // Collapse the navbar when there is scroll activity
     $(window).scroll(navbarCollapse);
-    showSlides(slideIndex);
+    // showSlides(slideIndex);
     // bookSlides();
-    showSlides(slideIndex);
 
     // Mail Chimp Functions
     (function ($) {
@@ -105,5 +105,65 @@ $(document).ready(function () {
     });
     customersdata = localStorage.getItem('customersRecord');
     // console.log(customersdata);
+    var xy = 3;
+    var xz = 0;
+    for (i = 0; i < books.length; i++) {
+        var catArr = books[i];
+
+        var bookDiv = $("<div id=content" + i + " class='col-md-4 bk-btn'>");
+        if (xy >= 3) {
+            xz++
+            var bookRow = $("<div class='row bookstock rowbooks" + xz + "'>");
+            $("#wrapper").append(bookRow);
+            xy = 0
+        } else {
+            xy++;
+            $(".rowbooks" + xz).append(bookDiv);
+            $("#content" + i).append('<button class="btn btn-info makeorder" id=' + i + '>' + "Category : " + books[i].category + "<br>" + "Title : " + books[i].title + "<br>" + "ISBN-Number : " + books[i].isbn_number + "<br>" + "Reviewed : " + books[i].review + "<br>" + "<a id='ord'>click to order book.</a></button>");
+        }
+
+    };
+    $("button.makeorder").click(function () {
+        var id = $(this).attr("id");
+        $('#myModal').appendTo("body").modal();
+    });
+    $("#orderbook").submit(function (event) {
+        event.preventDefault();
+        alert('book ordered successifully!')
+    })
+
+    $("#myinput").keyup(function (e) {
+        var filter = ($(this).val()).toUpperCase();
+        var li = $("#wrapper div.row .col-md-4 .makeorder");
+        console.log(li);
+
+        for (i = 0; i < li.length; i++) {
+            var a = ($('button.makeorder')[i]);
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                $("#found").html("searching " + filter.toLowerCase() + " book!");
+                li[i].style.display = "";
+
+            } else {
+                li[i].style.display = "none";
+
+            }
+        }
+
+    });
+    $('.carousel[data-type="multi"] .item').each(function(){
+        var next = $(this).next();
+        if (!next.length) {
+            next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+      
+        for (var i=0;i<2;i++) {
+            next=next.next();
+            if (!next.length) {
+                next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+        }
+    });
 
 });
