@@ -4,7 +4,7 @@
 
 ### 11th,April 2018
 
-#### By **Sarah Marion**, **Richard Waweru**, **Derrick Muriithi** &  **Jeremy Mutito**
+#### By **Sarah Marion**, **Richard Waweru** & **Derrick Muriithi**
 
 ## Description
 
@@ -36,7 +36,6 @@ You can reach out to us for reviews, advice, collaborations and comments at:
     * devsarahmarion@gmail.com
     * developer.waweru@gmail.com
     * muriithiderrick56@gmail.com
-    * jeremymutitu@gmail.com
 
 ## YOU ARE NOT GRANTED AUTHORITY, RIGHTS OR LICENCES TO THIS PROJECT WITHOUT THE EXPRESS CONSENT OF SARAH MARION
 
